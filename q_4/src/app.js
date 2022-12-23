@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 const hbs = require("hbs")
 const path = require("path")
-const PORT = 9000;
+const PORT = 8000;
 const geocode = require("../util/geocode")
 const weather = require("../util/weather")
 
